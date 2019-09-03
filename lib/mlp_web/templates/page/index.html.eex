@@ -1,35 +1,35 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
-</section>
+<div class="home__hero">
+  <h1 class="home__hero__title">PokeML</h1>
+  <h2 class="home__hero__sub__title">The Pokemon Machine Language Project</h2>
+</div>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-    </ul>
-  </article>
-</section>
+<div class="home__section">
+  <h2>Our Mission</h2>
+  <p>Our mission is to create the most comprehensive annotated Pokemon image dataset in the world.</p>
+  <p>...and we need your help to do it!</p>
+  <p>Essentially with a highly annotated image Pokemon dataset, we'll be able to apply all sorts of cool machine learning algorithms to any image or video of any pokemon.</p>
+  <p>All new capabilities which we did not have before!</p>
+
+  <h3 class="home__section__sub__title">Including:</h3>
+  <ul>
+    <li>Instantly identify any Pokemon from any image, including the location of that Pokemon within the Image.</li>
+    <li>Morph the styles and traits of Pokemon with different Pokemon.</li>
+    <li>Create talking Pokemon.</li>
+  </ul>
+</div>
+
+<div class="home__section">
+  <h2 class="home__section__title">The Problem</h2>
+  <p>While there are a heap of Pokemon-based images and artwork out there, computers cannot accurately know what a Pikachu is until it's been identified.</p>
+  <p>That's why it's important to classify these images.</p>
+  <p></p>
+  <p>Why is this important?</p>
+  <p>Well, essentially it will allow computers to do all s</p>
+</div>
+
+<div class="home__section">
+  <p></p>
+</div>
+
+  <p>Why is this important?</p>
+  <p>Well, essentially it will allow computers to do all s</p>

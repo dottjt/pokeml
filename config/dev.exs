@@ -16,7 +16,7 @@ config :mlp, Mlp.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :mlp, MlpWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: 4006],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
@@ -27,6 +27,11 @@ config :mlp, MlpWeb.Endpoint,
       "development",
       "--watch-stdin",
       cd: Path.expand("../assets", __DIR__)
+    ],
+    npm: [
+      "run",
+      "start",
+      cd: Path.expand("../client", __DIR__)
     ]
   ]
 
