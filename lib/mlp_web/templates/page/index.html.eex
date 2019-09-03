@@ -3,6 +3,14 @@
   <h2 class="home__hero__sub__title">The Pokemon Machine Language Project</h2>
 </div>
 
+
+<p>hey</p>
+<%# React App %>
+<div id="root"></div>
+<%# React App %>
+<p>hey</p>
+
+
 <div class="home__section">
   <h2>Our Mission</h2>
   <p>Our mission is to create the most comprehensive annotated Pokemon image dataset in the world.</p>

@@ -16,7 +16,7 @@ config :mlp, Mlp.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :mlp, MlpWeb.Endpoint,
-  http: [port: 4006],
+  http: [port: 4004],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
